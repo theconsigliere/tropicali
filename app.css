@@ -69,9 +69,29 @@ input, textarea, select {
   src: url(fonts/jost-book.woff2), url(fonts/jost-book.woff);
 }
 body {
-  background-color: lightgreen;
+  background-color: #ca774a;
   color: white;
   font-family: "Jost";
+  line-height: 1.5;
+  font-size: 24px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  width: 500px;
+}
+@media (max-width: 600px) {
+  section {
+    width: 350px;
+    font-size: 16px;
+  }
+}
+section p {
+  margin: 24px 0 0 0;
 }
 
 /*# sourceMappingURL=app.css.map */
