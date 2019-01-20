@@ -6,6 +6,7 @@
 
 @media (--mq-medium) {
   :root {
+    --primary-color: blue;
   }
 }
 

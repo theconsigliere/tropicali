@@ -17,7 +17,7 @@ var ghpages = require("gh-pages");
 
 gulp.task("css", function() {
   return gulp
-    .src(["src/css/reset.css", "src/css/typography.css", "src/css/app.css"])
+    .src(["src/css/reset.css", "src/css/typo.css", "src/css/app.css"])
     .pipe(sourcemaps.init())
     .pipe(
       postcss([
